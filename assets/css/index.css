@@ -108,8 +108,8 @@ footer img{
 @media screen and (max-width: 660px) {
     .title{
         width: 90%;
+        margin-top: 75px;
         text-align: center;
-        margin-top: 65px;
         margin-bottom: 10%;
         text-align: center;
     }

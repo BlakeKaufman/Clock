@@ -19,12 +19,12 @@ body .dots{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: -1;
 }
 /* title */
-.title h1{
+.title{
     color: white;
-    margin-top: 50%;
-    margin-bottom: 20%;
+    margin-top: 200px;
     text-align: center;
 }
 /* clock */
@@ -35,7 +35,6 @@ body .dots{
     align-items: center;
     justify-content: center;
 }
-
 /* presets */
 #timer h1{
     margin: 0;
@@ -71,13 +70,28 @@ body .dots{
     border-radius: 10px;
     background-color: hsla(236, 21%, 26%,0.7);
     z-index: 4;
-    height: 50px;
+    height: 42px;
+}
+/* input */
+.Input{
+    text-align: center;
+}
+.Input h1{
+    color: white;
+}
+.Input input{
+    text-align: center;
+}
+
+.margin-r{
+    margin-right: 10px;
 }
 /* footer */
 footer img{
     position: relative;
     width: 100%;
 }
+
 /* presets */
 .red{
     color: hsl(345, 95%, 68%);
